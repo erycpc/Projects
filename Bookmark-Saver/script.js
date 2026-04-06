@@ -5,9 +5,9 @@ const bookmarkUrlInput = document.getElementById("bookmark-url");
 
 document.addEventListener("DOMContentLoaded",loadBookmarks)
 
-addBookmarkBtn.addEventListener("click", function addBookmark() {
-    const name = bookmarkNameInput.Value.trim()
-    const url = bookmarkUrlInput.Value.trim()
+addBookmarkBtn.addEventListener("click", function() {
+    const name = bookmarkNameInput.value.trim()
+    const url = bookmarkUrlInput.value.trim()
 
     if (!name||!url) {
         alert("please insert both name and url")
