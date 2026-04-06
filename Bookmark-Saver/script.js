@@ -5,7 +5,7 @@ const bookmarkUrlInput = document.getElementById("bookmark-url");
 
 document.addEventListener("DOMContentLoaded",loadBookmarks)
 
-addBookmarkBtn.addEventListener("click", function(){
+addBookmarkBtn.addEventListener("click", function addBookmark() {
     const name = bookmarkNameInput.Value.trim()
     const url = bookmarkUrlInput.Value.trim()
 
